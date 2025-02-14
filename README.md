@@ -5,15 +5,11 @@ cmake -DCMAKE_C_COMPILER=/usr/local/bin/afl-clang-fast -DCMAKE_CXX_COMPILER=/usr
 
 
 -- Xerces-C++ configuration summary
--- --------------------------------
--- 
 --   Version:                   3.3.0
 --   Library interface version: 3.3
--- 
 --   Installation directory:    /home//XERCES/xerces-c-3.3.0
 --   C compiler:                /usr/local/bin/afl-clang-fast
 --   C++ compiler:              /usr/local/bin/afl-clang-fast++
--- 
 --   Build shared libraries:    ON
 --   Path delimiters:           "/"
 --   File Manager:              POSIX
