@@ -4,6 +4,12 @@ cmake invocation
 
 cmake -DCMAKE_C_COMPILER=/usr/local/bin/afl-clang-fast -DCMAKE_CXX_COMPILER=/usr/local/bin/afl-clang-fast++ -DCMAKE_BUILD_TYPE=Debug -Dsse2=OFF -DCMAKE_INSTALL_PREFIX=/home//XERCES/xerces-c-3.3.0 ../
 
+Before make
+SANs for this.... targetted
+export AFL_USE_ASAN=1
+export AFL_USE_MSAN=1
+export AFL_USE_UBSAN=1
+
 
 -- Xerces-C++ configuration summary
 --   Version:                   3.3.0
